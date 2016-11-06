@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lambo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="Facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="94dp"
+            android:id="@+id/fb" />
+
+        <Button
+            android:text="Tweeter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ig"
+            android:layout_alignStart="@+id/ig"
+            android:layout_marginTop="61dp"
+            android:id="@+id/tweet" />
+
+        <Button
+            android:text="Instagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:id="@+id/ig"
+            android:layout_below="@+id/fb"
+            android:layout_alignStart="@+id/fb" />
+
+        <Button
+            android:text="Bluetooth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="45dp"
+            android:id="@+id/blutut"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/tweet" />
+    </RelativeLayout>
+</LinearLayout>
